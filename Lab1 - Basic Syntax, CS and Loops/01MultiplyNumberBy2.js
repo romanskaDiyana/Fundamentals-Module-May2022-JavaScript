@@ -1,4 +1,4 @@
 function multiplyByTwo(number){
-    var result = number * 2;
+    let result = number * 2;
     console.log(result);
 }
