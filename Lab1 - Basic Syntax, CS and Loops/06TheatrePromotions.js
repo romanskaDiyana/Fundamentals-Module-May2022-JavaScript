@@ -1,5 +1,5 @@
 function theatrePromotions(typeOfTheDay, age) {
-    var pricePerTicket = 0;
+    let pricePerTicket = 0;
     if (age < 0 || age > 122) {
         console.log("Error!");
         return;
