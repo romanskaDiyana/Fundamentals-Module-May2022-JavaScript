@@ -1,6 +1,6 @@
 function printAndSum(start,end){
     let sum = 0;
-    var numbers = "";
+    let numbers = "";
     for (let i = start; i <= end; i++) {
         sum += i;  
         numbers += i + " ";
